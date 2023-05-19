@@ -338,10 +338,14 @@ section .title::after {
 
 .services .serv-content .card:hover {
     background: orangered;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .services .serv-content .card .box {
     transition: all 0.3s ease;
+    display: flex;
+   flex-wrap: wrap;
 }
 
 .services .serv-content .card:hover .box {
