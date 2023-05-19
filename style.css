@@ -310,6 +310,8 @@ section .title::after {
 .teams {
     color: #fff;
     background: #111;
+    display: flex;
+  flex-wrap: wrap;
 }
 
 .services .title::before,
