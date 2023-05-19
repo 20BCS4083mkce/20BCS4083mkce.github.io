@@ -329,9 +329,11 @@ section .title::after {
     background-size: cover;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 35px;
+    padding: 60px 35px;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .services .serv-content .card:hover {
