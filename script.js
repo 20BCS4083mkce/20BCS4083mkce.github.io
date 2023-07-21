@@ -44,9 +44,9 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Coder", "Machine Learning Enthusiast", "Freelancer"],
+        strings: ["Coder", "Machine Learning Enthusiast", "Developer"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 100,
         loop: true
     });
 
